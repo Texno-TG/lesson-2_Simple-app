@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textinput_helper_text"
+        android:fontFamily="sans-serif-black"
+        android:text="Simple App!"
+        android:textSize="24dp"
+        />
+
+
+
+
+        <Button
+            android:layout_marginTop="130dp"
+            android:layout_below="@+id/textinput_helper_text"
+            android:id="@+id/button1"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STUDENT PORTAL"
+            />
+
+        <Button
+            android:layout_below="@id/button1"
+            android:layout_marginTop="15dp"
+            android:id="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Disney+" />
+
+
+    <Button
+        android:layout_below="@id/button2"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Netflix" />
+
+    <Button
+        android:layout_below="@id/button3"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Twitter" />
+
+    <Button
+        android:layout_below="@id/button4"
+        android:layout_marginTop="15dp"
+        android:id="@+id/button5"
+        android:layout_centerHorizontal="true"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Facebook" />
+
+
+
+
+</RelativeLayout>
